@@ -290,26 +290,7 @@ while True:
                     elif (response == "LEFT"):
                            Battle(20,20,'Cave',5)
                            while dragon == True:
-                               print ('''You here the roar of an angry bigger monster coming....
-perhaps it's a good idea to start going a little faster.....''')
-                               time.sleep(1)
-                               print ("You here some roaring in the right tunnel. Sounds almost like a dragon....")
-                               time.sleep(2)
-                               print ("Will you go right or left?")
-                               response = input().upper()
-                               if response == "RIGHT":
-                                   Battle (100,100,'Intersection',40)
-                               elif response == "LEFT":
-                                    print ("You run away as fast as you can! You somehow find you way out of the way cave, into a dragons den.")
-                                    time.sleep(1)
-                                    print ("It's filled with treasure")
-                                    time.sleep(1)
-                                    print ("A shadow falls on the wall in front of you you")
-                                    time.sleep(2)
-                                    print("You slowly turn around.....")
-                                    time.sleep(3)
-                                    print("The end!(For now!)")
-                                    sys.exit()
+                               sys.exit()
                        
                        
                         
